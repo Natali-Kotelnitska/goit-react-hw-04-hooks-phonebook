@@ -1,0 +1,23 @@
+.contactsText {
+  display: inline-block;
+}
+.contactsList {
+  list-style: circle;
+}
+.contactsBtn {
+  width: fit-content;
+  margin-left: 80px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-color: red;
+  box-shadow: inset 1px -1px 15px 1px red;
+}
+
+.contactsBtn:focus,
+.contactsBtn:hover {
+  background-color: pink;
+  color: white;
+}
